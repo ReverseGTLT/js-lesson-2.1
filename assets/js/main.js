@@ -1,7 +1,8 @@
 var name = prompt('Введите имя', '');
 var lastName = prompt('Введите фамилию', '');
 var age = prompt('Полных лет', '');
-alert(name + ' ' + lastName + ' ' + age + ' лет');
+var result = name + ' ' + lastName + ' ' + age + ' лет';
+alert(result);
 
 var number = prompt('Введите пятизначное число (без пробелов)', '');
 function spaceDigits(number) {
